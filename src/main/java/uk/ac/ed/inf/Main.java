@@ -28,6 +28,7 @@ public class Main implements LngLatHandling, OrderValidation
 
     @Override
     public boolean isInRegion(LngLat position, NamedRegion region) {
+//        Raycasting algorithm
         return false;
     }
 
