@@ -22,7 +22,7 @@ public class MainTest
         assertTrue( true );
     }
     @Test
-    public void testInCentralArea(){
+    public void testInRegion(){
         MainLngLatHandle test = new MainLngLatHandle();
         LngLat position = new LngLat(-3.188396, 55.944425);
         NamedRegion region = new NamedRegion("test", new LngLat[] {
