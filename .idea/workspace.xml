@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de08d4ae-9a0d-4e08-b5ee-2d62d637b3b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/CreditCardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/OrderValidationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/MainLngLatHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/MainLngLatHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/MainOrderValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/MainOrderValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/MainOrderValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/MainOrderValidation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,34 +54,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MainTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.Main" />
-      <module name="PizzaDronz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uk.ac.ed.inf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.TestClient" />
-      <module name="PizzaDronz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uk.ac.ed.inf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CreditCardTest">
+    <configuration name="CreditCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaDronz" />
       <extension name="coverage">
         <pattern>
@@ -87,13 +64,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
-      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.MainTest" />
+      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.CreditCardTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testInCentralArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaDronz" />
       <extension name="coverage">
         <pattern>
@@ -102,14 +79,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
-      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.MainTest" />
-      <option name="METHOD_NAME" value="testInCentralArea" />
+      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.OrderValidationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderValidationTest.creditCardExpiryCheckCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaDronz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.ac.ed.inf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
+      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.OrderValidationTest" />
+      <option name="METHOD_NAME" value="creditCardExpiryCheckCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest.testInRegion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderValidationTest.creditCardNumberCheckCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaDronz" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +110,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
-      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.MainTest" />
-      <option name="METHOD_NAME" value="testInRegion" />
+      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.OrderValidationTest" />
+      <option name="METHOD_NAME" value="creditCardNumberCheckCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderValidationTest.creditCardNumberCheckIncorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaDronz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.ac.ed.inf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
+      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.OrderValidationTest" />
+      <option name="METHOD_NAME" value="creditCardNumberCheckIncorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.testInRegion" />
-        <item itemvalue="JUnit.MainTest.testInCentralArea" />
-        <item itemvalue="Application.TestClient" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CreditCardTest" />
+        <item itemvalue="JUnit.OrderValidationTest" />
+        <item itemvalue="JUnit.OrderValidationTest.creditCardExpiryCheckCorrect" />
+        <item itemvalue="JUnit.OrderValidationTest.creditCardNumberCheckIncorrect" />
+        <item itemvalue="JUnit.OrderValidationTest.creditCardNumberCheckCorrect" />
       </list>
     </recent_temporary>
   </component>
