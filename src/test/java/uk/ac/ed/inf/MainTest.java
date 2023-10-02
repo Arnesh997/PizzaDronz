@@ -2,6 +2,8 @@ package uk.ac.ed.inf;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+
+import org.junit.BeforeClass;
 import org.junit.Test;
 import uk.ac.ed.inf.ilp.data.LngLat;
 import uk.ac.ed.inf.ilp.data.NamedRegion;
@@ -13,6 +15,19 @@ import uk.ac.ed.inf.ilp.interfaces.LngLatHandling;
  */
 public class MainTest
 {
+    @BeforeClass
+    public static void setUp(){
+
+        LngLat p1 = new LngLat(0,0);
+        LngLat p2 = new LngLat(3,2);
+        LngLat p3 = new LngLat(4,-1);
+        LngLat p4 = new LngLat(0,-4);
+        LngLat p5 = new LngLat(-5,-2);
+        LngLat p6 = new LngLat(-2,-1);
+        LngLat p7 = new LngLat(-2,2);
+        sampleIntCoordinates = new LngLat[]{p1,p2,p3,p4,p5,p6,p7};
+
+    }
     /**
      * Rigorous Test :-)
      */
@@ -47,4 +62,99 @@ public class MainTest
         });
         assertFalse(test.isInRegion(position, region));
     }
+
+
+
+    public static LngLat[] sampleIntCoordinates;
+
+
+
+
+    @Test
+    public void isInRegion(){
+        LngLat position = new LngLat(-3.192473,  55.942617);
+        LngLat[] regionCoordinates = {new LngLat(-3.192473,  55.946233),
+                new LngLat(-3.192473,  55.942617),
+                new LngLat(-3.184319,  55.942617),
+                new LngLat(-3.184319,  55.946233)};
+        NamedRegion region = new NamedRegion("test", regionCoordinates);
+        MainLngLatHandle lngLatHandler = new MainLngLatHandle();
+        boolean result = lngLatHandler.isInRegion(position, region);
+        assertTrue(result);
+    }
+
+    // Tests with diagram
+    @Test
+    public void isInRegionWithPointAsVertex1(){
+        LngLat position = new LngLat(0,-4);
+        NamedRegion region = new NamedRegion("test", sampleIntCoordinates);
+        MainLngLatHandle lngLatHandler = new MainLngLatHandle();
+        boolean result = lngLatHandler.isInRegion(position, region);
+        assertTrue(result);
+    }
+
+    @Test
+    public void isInRegionWithPointAsVertex2(){
+        LngLat position = new LngLat(-2,-1);
+        NamedRegion region = new NamedRegion("test", sampleIntCoordinates);
+        MainLngLatHandle lngLatHandler = new MainLngLatHandle();
+        boolean result = lngLatHandler.isInRegion(position, region);
+        assertTrue(result);
+    }
+
+    @Test
+    public void isInRegionWithPointOnEdge1(){
+        LngLat position = new LngLat(0,-2);
+        NamedRegion region = new NamedRegion("test", sampleIntCoordinates);
+        MainLngLatHandle lngLatHandler = new MainLngLatHandle();
+        boolean result = lngLatHandler.isInRegion(position, region);
+        assertTrue(result);
+    }
+
+    @Test
+    public void isInRegionWithPointOnEdge2(){
+        LngLat position = new LngLat(-1,1);
+        NamedRegion region = new NamedRegion("test", sampleIntCoordinates);
+        MainLngLatHandle lngLatHandler = new MainLngLatHandle();
+        boolean result = lngLatHandler.isInRegion(position, region);
+        assertTrue(result);
+    }
+
+    @Test
+    public void isInRegionWithPointInside1(){
+        LngLat position = new LngLat(-2,0);
+        NamedRegion region = new NamedRegion("test", sampleIntCoordinates);
+        MainLngLatHandle lngLatHandler = new MainLngLatHandle();
+        boolean result = lngLatHandler.isInRegion(position, region);
+        assertTrue(result);
+    }
+
+    @Test
+    public void isInRegionWithPointInside2(){
+        LngLat position = new LngLat(3,-1);
+        NamedRegion region = new NamedRegion("test", sampleIntCoordinates);
+        MainLngLatHandle lngLatHandler = new MainLngLatHandle();
+        boolean result = lngLatHandler.isInRegion(position, region);
+        assertTrue(result);
+    }
+
+    @Test
+    public void isInRegionWithPointOutside1(){
+        LngLat position = new LngLat(2,4);
+        NamedRegion region = new NamedRegion("test", sampleIntCoordinates);
+        MainLngLatHandle lngLatHandler = new MainLngLatHandle();
+        boolean result = lngLatHandler.isInRegion(position, region);
+        assertFalse(result);
+    }
+
+    @Test
+    public void isInRegionWithPointOutside2(){
+        LngLat position = new LngLat(-5,-4);
+        NamedRegion region = new NamedRegion("test", sampleIntCoordinates);
+        MainLngLatHandle lngLatHandler = new MainLngLatHandle();
+        boolean result = lngLatHandler.isInRegion(position, region);
+        assertFalse(result);
+    }
+
 }
+
