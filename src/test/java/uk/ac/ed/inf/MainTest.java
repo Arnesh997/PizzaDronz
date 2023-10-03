@@ -15,6 +15,8 @@ import uk.ac.ed.inf.ilp.interfaces.LngLatHandling;
  */
 public class MainTest
 {
+    public static LngLat[] centralAreaCoordinates;
+    public static LngLat[] sampleIntCoordinates;
     @BeforeClass
     public static void setUp(){
 
@@ -26,6 +28,12 @@ public class MainTest
         LngLat p6 = new LngLat(-2,-1);
         LngLat p7 = new LngLat(-2,2);
         sampleIntCoordinates = new LngLat[]{p1,p2,p3,p4,p5,p6,p7};
+
+        LngLat c1 = new LngLat(-3.192473,  55.946233);
+        LngLat c2 = new LngLat(-3.192473,  55.942617);
+        LngLat c3 = new LngLat(-3.184319,  55.942617);
+        LngLat c4 = new LngLat(-3.184319,  55.946233);
+        centralAreaCoordinates = new LngLat[]{c1,c2,c3,c4};
 
     }
     /**
@@ -62,13 +70,6 @@ public class MainTest
         });
         assertFalse(test.isInRegion(position, region));
     }
-
-
-
-    public static LngLat[] sampleIntCoordinates;
-
-
-
 
     @Test
     public void isInRegion(){
@@ -128,7 +129,6 @@ public class MainTest
         boolean result = lngLatHandler.isInRegion(position, region);
         assertTrue(result);
     }
-
     @Test
     public void isInRegionWithPointInside2(){
         LngLat position = new LngLat(3,-1);
@@ -154,6 +154,16 @@ public class MainTest
         MainLngLatHandle lngLatHandler = new MainLngLatHandle();
         boolean result = lngLatHandler.isInRegion(position, region);
         assertFalse(result);
+    }
+
+    @Test
+    public void centralAreaPointInside2(){
+        LngLat position = new LngLat(-3.189110,  55.9440);
+        NamedRegion region = new NamedRegion("test", centralAreaCoordinates);
+        MainLngLatHandle lngLatHandler = new MainLngLatHandle();
+        LngLat nextPosition = lngLatHandler.nextPosition(position, 90);
+        boolean result = lngLatHandler.isInRegion(nextPosition, region);
+        assertTrue(result);
     }
 
 }
