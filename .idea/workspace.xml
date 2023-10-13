@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="de08d4ae-9a0d-4e08-b5ee-2d62d637b3b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/MainLngLatHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/MainLngLatHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/MainOrderValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/MainOrderValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/MainLngLatHandle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/MainLngLatHandle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/libraries/IlpDataObjects.jar!/uk/ac/ed/inf/ilp/data/LngLat.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/libraries/IlpDataObjects.jar!/uk/ac/ed/inf/ilp/data/Order.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/libraries/IlpDataObjects.jar!/uk/ac/ed/inf/ilp/interfaces/LngLatHandling.class" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/libraries/IlpDataObjects.jar!/uk/ac/ed/inf/ilp/interfaces/OrderValidation.class" root0="SKIP_INSPECTION" />
@@ -50,7 +55,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PizzaInfoTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.Main" />
+      <module name="PizzaDronz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.ac.ed.inf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaDronz" />
       <extension name="coverage">
@@ -62,22 +80,6 @@
       <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
       <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.MainTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainTest.centralAreaPointInside2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PizzaDronz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uk.ac.ed.inf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
-      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.MainTest" />
-      <option name="METHOD_NAME" value="centralAreaPointInside2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PizzaInfoTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.MainnTest2_Nilesh" />
-        <item itemvalue="JUnit.OrderValidationTest" />
         <item itemvalue="JUnit.MainTest" />
-        <item itemvalue="JUnit.MainTest.centralAreaPointInside2" />
+        <item itemvalue="JUnit.PizzaInfoTest" />
+        <item itemvalue="JUnit.OrderValidationTest" />
       </list>
     </recent_temporary>
   </component>
