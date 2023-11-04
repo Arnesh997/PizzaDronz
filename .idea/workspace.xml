@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de08d4ae-9a0d-4e08-b5ee-2d62d637b3b1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/controller/DeliveryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Data/RestaurantClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/controller/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/controller/CoreRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/RestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/RestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Data/RestaurantClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/controller/RestClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/RestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/RestTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Data/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Data/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/MainTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/AppTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Data/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,20 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RestTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.Data.App" />
+      <module name="PizzaDronz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.ac.ed.inf.Data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaDronz" />
       <extension name="coverage">
@@ -99,22 +111,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestTest.testGetOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PizzaDronz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uk.ac.ed.inf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
-      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.RestTest" />
-      <option name="METHOD_NAME" value="testGetOrders" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RestTest.testGetOrdersForDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaDronz" />
       <extension name="coverage">
@@ -132,19 +128,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.RestTest" />
       <item itemvalue="JUnit.RestTest.testGetCentralArea" />
       <item itemvalue="JUnit.RestTest.testGetNoFlyZones" />
-      <item itemvalue="JUnit.RestTest.testGetOrders" />
       <item itemvalue="JUnit.RestTest.testGetOrdersForDate" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.RestTest" />
         <item itemvalue="JUnit.RestTest.testGetNoFlyZones" />
         <item itemvalue="JUnit.RestTest.testGetCentralArea" />
         <item itemvalue="JUnit.RestTest.testGetOrdersForDate" />
-        <item itemvalue="JUnit.RestTest.testGetOrders" />
       </list>
     </recent_temporary>
   </component>
