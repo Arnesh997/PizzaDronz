@@ -5,9 +5,9 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
+import uk.ac.ed.inf.Data.MainLngLatHandle;
 import uk.ac.ed.inf.ilp.data.LngLat;
 import uk.ac.ed.inf.ilp.data.NamedRegion;
-import uk.ac.ed.inf.ilp.interfaces.LngLatHandling;
 
 
 /**
