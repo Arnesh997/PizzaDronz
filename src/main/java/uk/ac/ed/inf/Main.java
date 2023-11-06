@@ -1,6 +1,5 @@
 package uk.ac.ed.inf;
 
-import uk.ac.ed.inf.ilp.data.Order;
 import uk.ac.ed.inf.controller.DeliveryController;
 
 import java.net.MalformedURLException;
@@ -8,9 +7,8 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
-import java.util.List;
 
-public class App {
+public class Main {
 
     public static void main(String[] args){
         // check that there are the correct number of arguments
@@ -22,12 +20,11 @@ public class App {
             var url = args[1];
             // validate the date and url
             try {
-                LocalDate parsed = LocalDate.parse(date);
+                LocalDate parsedDate = LocalDate.parse(date);
                 if (isValidURL(url)){
                     // construct the deliverorders object, and start execution
-//                    TODO: uncomment this line
-//                    DeliveryController main = new DeliveryController(date, url);
-//                    main.run();
+                    DeliveryController main = new DeliveryController(parsedDate, url);
+                    main.run();
                 }
             } catch (DateTimeParseException e){
                 System.err.println(e);

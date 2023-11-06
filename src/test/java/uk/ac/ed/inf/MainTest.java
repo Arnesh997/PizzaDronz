@@ -11,9 +11,9 @@ import uk.ac.ed.inf.ilp.data.NamedRegion;
 
 
 /**
- * Unit test for simple App.
+ * Unit test for simple Main.
  */
-public class AppTest
+public class MainTest
 {
     public static LngLat[] centralAreaCoordinates;
     public static LngLat[] sampleIntCoordinates;
