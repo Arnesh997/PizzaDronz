@@ -22,7 +22,6 @@ public class Main {
             try {
                 LocalDate parsedDate = LocalDate.parse(date);
                 if (isValidURL(url)){
-                    // construct the deliverorders object, and start execution
                     DeliveryController main = new DeliveryController(parsedDate, url);
                     main.run();
                 }
