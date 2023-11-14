@@ -26,11 +26,11 @@ public class Main {
                     main.run();
                 }
             } catch (DateTimeParseException e){
-                System.err.println(e);
-                System.err.println("Invalid date.");
+                System.out.println(e);
+                System.out.println("Invalid date.");
             } catch (MalformedURLException | URISyntaxException e){
-                System.err.println(e);
-                System.err.println("Invalid url.");
+                System.out.println(e);
+                System.out.println("Invalid url.");
             }
         }
     }
