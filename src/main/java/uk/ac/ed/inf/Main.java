@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args){
         // check that there are the correct number of arguments
         if (args.length != 2){
-            System.err.println("Incorrect number of arguments, expected 2 got " + args.length);
+            System.out.println("Incorrect number of arguments, expected 2 got " + args.length);
         } else {
             // set the url and date
             var date = args[0];
