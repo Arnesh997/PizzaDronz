@@ -6,12 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="de08d4ae-9a0d-4e08-b5ee-2d62d637b3b1" name="Changes" comment="&quot;uh&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultFiles/deliveries-2023-11-17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultFiles/drone-2023-11-17.geojson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ResultFiles/flightpath-2023-11-17.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Command/DeliveryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Command/DeliveryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Pathfinding/AStarPathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Pathfinding/AStarPathFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Command/DeliveryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Command/DeliveryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Pathfinding/AStarPathFinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Pathfinding/AStarPathFinder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
