@@ -1,6 +1,6 @@
 package uk.ac.ed.inf;
 
-import uk.ac.ed.inf.controller.DeliveryController;
+import uk.ac.ed.inf.Command.DeliveryController;
 
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
