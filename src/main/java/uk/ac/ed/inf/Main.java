@@ -8,8 +8,14 @@ import java.net.URL;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 
+/**
+ * Main entry point
+ */
 public class Main {
-
+    /**
+     * Entry point into the program
+     * @param args command line arguments
+     */
     public static void main(String[] args){
         // check that there are the correct number of arguments
         if (args.length != 2){
@@ -22,6 +28,7 @@ public class Main {
             try {
                 LocalDate parsedDate = LocalDate.parse(date);
                 if (isValidURL(url)){
+                    // construct the DeliveryController object, and start execution
                     DeliveryController main = new DeliveryController(parsedDate, url);
                     main.run();
                 }
