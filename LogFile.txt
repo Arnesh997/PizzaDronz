@@ -1,0 +1,4 @@
+logger[callerName:RestClient.getRestaurants(), result:GET_RESTAURANTS_SUCCESS, additionalInfo:{}]
+logger[callerName:RestClient.getNoFlyZones(), result:GET_NO_FLY_ZONES_SUCCESS, additionalInfo:{}]
+logger[callerName:RestClient.getCentralArea(), result:GET_CENTRAL_AREA_SUCCESS, additionalInfo:{}]
+logger[callerName:RestClient.getOrders(date), result:GET_ORDERS_BY_DATE_SUCCESS, additionalInfo:{}]
