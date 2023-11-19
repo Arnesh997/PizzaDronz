@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de08d4ae-9a0d-4e08-b5ee-2d62d637b3b1" name="Changes" comment="&quot;uh&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Controller/DroneDeliveryRecorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/LngLatTests2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/OrderTests2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Client/RestClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Client/RestClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Command/CustomOrderSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Serialiser/CustomOrderSerializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Command/DeliveryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Controller/DeliveryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Command/DroneDeliveryRecorder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/RestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/RestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Command/CustomOrderSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Command/DeliveryController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Command/DroneDeliveryRecorder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/RestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/RestTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
