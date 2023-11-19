@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="de08d4ae-9a0d-4e08-b5ee-2d62d637b3b1" name="Changes" comment="&quot;uh&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Controller/DeliveryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Controller/DeliveryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Controller/DeliveryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/uk/ac/ed/inf/Controller/DeliveryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Command/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Pathfinding/AStarPathFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/Pathfinding/AStarPathFinder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/RestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/RestTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +54,9 @@
       <recent name="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.uk.ac.ed.inf.Main">
-    <configuration name="uk.ac.ed.inf.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.Main" />
+  <component name="RunManager" selected="JUnit.RestTest.testGetRestaurants">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.Command.Main" />
       <module name="PizzaDronz" />
       <option name="PROGRAM_PARAMETERS" value="2023-11-20 https://ilp-rest.azurewebsites.net" />
       <extension name="coverage">
@@ -68,26 +69,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LngLatTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PizzaDronz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uk.ac.ed.inf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
-      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.LngLatTests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LngLatTests2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PizzaDronz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uk.ac.ed.inf.*" />
+          <option name="PATTERN" value="uk.ac.ed.inf.Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,13 +88,29 @@
       <module name="PizzaDronz" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uk.ac.ed.inf.*" />
+          <option name="PATTERN" value="uk.ac.ed.inf.Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
       <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.OrderTests2" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTest.testGetRestaurants" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PizzaDronz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uk.ac.ed.inf.Command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="uk.ac.ed.inf" />
+      <option name="MAIN_CLASS_NAME" value="uk.ac.ed.inf.RestTest" />
+      <option name="METHOD_NAME" value="testGetRestaurants" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,18 +133,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.uk.ac.ed.inf.Main" />
+      <item itemvalue="JUnit.RestTest.testGetRestaurants" />
       <item itemvalue="JUnit.LngLatTests2" />
       <item itemvalue="JUnit.OrderTests2" />
-      <item itemvalue="JUnit.LngLatTests" />
       <item itemvalue="JUnit.RestTest.testTime" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RestTest.testGetRestaurants" />
         <item itemvalue="Application.uk.ac.ed.inf.Main" />
         <item itemvalue="JUnit.RestTest.testTime" />
         <item itemvalue="JUnit.OrderTests2" />
         <item itemvalue="JUnit.LngLatTests2" />
-        <item itemvalue="JUnit.LngLatTests" />
       </list>
     </recent_temporary>
   </component>
