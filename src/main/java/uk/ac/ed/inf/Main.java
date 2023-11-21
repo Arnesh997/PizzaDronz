@@ -1,4 +1,4 @@
-package uk.ac.ed.inf.Command;
+package uk.ac.ed.inf;
 
 import uk.ac.ed.inf.Controller.DeliveryController;
 

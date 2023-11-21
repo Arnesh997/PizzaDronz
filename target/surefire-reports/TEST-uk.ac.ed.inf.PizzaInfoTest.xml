@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uk.ac.ed.inf.MainTest" time="0" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uk.ac.ed.inf.PizzaInfoTest" time="0" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -56,17 +56,18 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegion" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="centralAreaPointInside2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointInside1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointInside2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="testInRegion" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="testOutsideInformaticsForum" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointAsVertex1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointAsVertex2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOnEdge1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOnEdge2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOutside1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOutside2" classname="uk.ac.ed.inf.MainTest" time="0"/>
+  <testcase name="shouldNotAcceptEmptyPizzaOrder" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldAccept3PizzaInOrder" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldNotAccept5PizzaInOrder" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldNotAccept1WrongPizzas" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldAcceptOrderWithPizzasFromSameRestaurant" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldNotAcceptOrderWithPizzaNameNull" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldNotAcceptOrderWithPizzasFromMultipleRestaurants" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldNotAcceptNullPizzaOrder" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldNotAccept2WrongPizzasInOrderFor4" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldNotAcceptOrderWithPizzasFromClosedRestaurant" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldAcceptOrderWithPizzasFromOpenRestaurant" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldAcceptOrderWithCorrectTotalPrice" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldNotAcceptOrderWithIncorrectTotalPrice" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
+  <testcase name="shouldAccept4PizzaInOrder" classname="uk.ac.ed.inf.PizzaInfoTest" time="0"/>
 </testsuite>

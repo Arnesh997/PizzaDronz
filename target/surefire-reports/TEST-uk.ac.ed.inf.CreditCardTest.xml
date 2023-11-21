@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uk.ac.ed.inf.MainTest" time="0" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uk.ac.ed.inf.CreditCardTest" time="0" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -56,17 +56,14 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegion" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="centralAreaPointInside2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointInside1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointInside2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="testInRegion" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="testOutsideInformaticsForum" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointAsVertex1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointAsVertex2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOnEdge1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOnEdge2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOutside1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOutside2" classname="uk.ac.ed.inf.MainTest" time="0"/>
+  <testcase name="nullCreditCardNumberCheck" classname="uk.ac.ed.inf.CreditCardTest" time="0"/>
+  <testcase name="creditCardNumberMoreThan16CheckIncorrect" classname="uk.ac.ed.inf.CreditCardTest" time="0"/>
+  <testcase name="creditCardCvvCheckIncorrect" classname="uk.ac.ed.inf.CreditCardTest" time="0"/>
+  <testcase name="onlyNumericInCreditCardNumber" classname="uk.ac.ed.inf.CreditCardTest" time="0"/>
+  <testcase name="emptyCreditCardNumberCheck" classname="uk.ac.ed.inf.CreditCardTest" time="0"/>
+  <testcase name="creditCardNumberLessThan16CheckIncorrect" classname="uk.ac.ed.inf.CreditCardTest" time="0"/>
+  <testcase name="creditCardNumberCheckCorrect" classname="uk.ac.ed.inf.CreditCardTest" time="0"/>
+  <testcase name="creditCardExpiryCheckIncorrect" classname="uk.ac.ed.inf.CreditCardTest" time="0"/>
+  <testcase name="creditCardExpiryCheckCorrect" classname="uk.ac.ed.inf.CreditCardTest" time="0"/>
+  <testcase name="creditCardCvvCheckCorrect" classname="uk.ac.ed.inf.CreditCardTest" time="0"/>
 </testsuite>

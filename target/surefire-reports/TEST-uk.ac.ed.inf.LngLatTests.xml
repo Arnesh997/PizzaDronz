@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uk.ac.ed.inf.MainTest" time="0" tests="13" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uk.ac.ed.inf.LngLatTests" time="0" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -56,17 +56,13 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegion" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="centralAreaPointInside2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointInside1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointInside2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="testInRegion" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="testOutsideInformaticsForum" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointAsVertex1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointAsVertex2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOnEdge1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOnEdge2" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOutside1" classname="uk.ac.ed.inf.MainTest" time="0"/>
-  <testcase name="isInRegionWithPointOutside2" classname="uk.ac.ed.inf.MainTest" time="0"/>
+  <testcase name="testIsInRegion" classname="uk.ac.ed.inf.LngLatTests" time="0"/>
+  <testcase name="testIsInRegionWithPointOutside1" classname="uk.ac.ed.inf.LngLatTests" time="0"/>
+  <testcase name="testIsInRegionWithPointOutside2" classname="uk.ac.ed.inf.LngLatTests" time="0"/>
+  <testcase name="testIsInRegionWithPointOnEdge1" classname="uk.ac.ed.inf.LngLatTests" time="0"/>
+  <testcase name="testIsInRegionWithPointOnEdge2" classname="uk.ac.ed.inf.LngLatTests" time="0"/>
+  <testcase name="testIsInRegionWithPointAsVertex1" classname="uk.ac.ed.inf.LngLatTests" time="0"/>
+  <testcase name="testIsInRegionWithPointAsVertex2" classname="uk.ac.ed.inf.LngLatTests" time="0"/>
+  <testcase name="testIsInRegionWithPointInside1" classname="uk.ac.ed.inf.LngLatTests" time="0"/>
+  <testcase name="testIsInRegionWithPointInside2" classname="uk.ac.ed.inf.LngLatTests" time="0"/>
 </testsuite>
