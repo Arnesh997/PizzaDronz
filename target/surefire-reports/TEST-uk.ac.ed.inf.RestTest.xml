@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="6" failures="0" name="uk.ac.ed.inf.RestTest" time="2.394" errors="0" skipped="0">
+<testsuite tests="6" failures="0" name="uk.ac.ed.inf.RestTest" time="3.198" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.1.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -60,10 +60,10 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="uk.ac.ed.inf.RestTest" name="testGetCentralArea" time="0.58"/>
-  <testcase classname="uk.ac.ed.inf.RestTest" name="testTime" time="0.749"/>
-  <testcase classname="uk.ac.ed.inf.RestTest" name="testGetRestaurants" time="0.101"/>
-  <testcase classname="uk.ac.ed.inf.RestTest" name="testGetOrdersForDate" time="0.276"/>
-  <testcase classname="uk.ac.ed.inf.RestTest" name="testGetNoFlyZones" time="0.096"/>
-  <testcase classname="uk.ac.ed.inf.RestTest" name="testGetOrders" time="0.592"/>
+  <testcase classname="uk.ac.ed.inf.RestTest" name="testGetCentralArea" time="0.581"/>
+  <testcase classname="uk.ac.ed.inf.RestTest" name="testTime" time="1.395"/>
+  <testcase classname="uk.ac.ed.inf.RestTest" name="testGetRestaurants" time="0.124"/>
+  <testcase classname="uk.ac.ed.inf.RestTest" name="testGetOrdersForDate" time="0.306"/>
+  <testcase classname="uk.ac.ed.inf.RestTest" name="testGetNoFlyZones" time="0.088"/>
+  <testcase classname="uk.ac.ed.inf.RestTest" name="testGetOrders" time="0.704"/>
 </testsuite>

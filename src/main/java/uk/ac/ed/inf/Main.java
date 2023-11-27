@@ -7,7 +7,6 @@ import java.net.URISyntaxException;
 import java.net.URL;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
-
 /**
  * Main entry point
  */
@@ -16,40 +15,47 @@ public class Main {
      * Entry point into the program
      * @param args command line arguments
      */
-    public static void main(String[] args){
-        // check that there are the correct number of arguments
-        if (args.length != 2){
+    public static void main(String[] args) {
+        if (args.length != 2) {
             System.out.println("Incorrect number of arguments, expected 2 got " + args.length);
+            System.exit(1); // Exiting gracefully
         } else {
-            // set the url and date
-            var date = args[0];
-            var url = args[1];
-            // validate the date and url
+            String date = args[0];
+            String url = args[1];
+
+            if (!isValidDate(date) || !isValidURL(url)) {
+                System.exit(2); // Exiting gracefully
+            }
+
             try {
                 LocalDate parsedDate = LocalDate.parse(date);
-                if (isValidURL(url)){
-                    // construct the DeliveryController object, and start execution
-                    DeliveryController main = new DeliveryController(parsedDate, url);
-                    main.run();
-                }
-            } catch (DateTimeParseException e){
-                System.out.println(e);
-                System.out.println("Invalid date.");
-            } catch (MalformedURLException | URISyntaxException e){
-                System.out.println(e);
-                System.out.println("Invalid url.");
+                DeliveryController main = new DeliveryController(parsedDate, url);
+                main.run();
+            } catch (Exception e) { // Catching any unexpected exceptions
+                System.out.println("An unexpected error occurred: " + e.getMessage());
+                System.exit(3); // Exiting gracefully
             }
         }
     }
 
-    private static boolean isValidURL(String url) throws MalformedURLException, URISyntaxException {
+    private static boolean isValidDate(String date) {
+        try {
+            LocalDate.parse(date);
+            return true;
+        } catch (DateTimeParseException e) {
+            System.out.println("Invalid date format: " + e.getMessage());
+            return false;
+        }
+    }
+
+    private static boolean isValidURL(String url) {
         try {
             new URL(url).toURI();
             return true;
-        } catch (MalformedURLException e) {
-            return false;
-        } catch (URISyntaxException e) {
+        } catch (MalformedURLException | URISyntaxException e) {
+            System.out.println("Invalid URL format: " + e.getMessage());
             return false;
         }
     }
 }
+

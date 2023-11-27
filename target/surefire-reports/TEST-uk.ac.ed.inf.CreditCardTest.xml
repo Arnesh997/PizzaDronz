@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="uk.ac.ed.inf.CreditCardTest" time="0" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="uk.ac.ed.inf.CreditCardTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.1.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -67,7 +67,5 @@
   <testcase classname="uk.ac.ed.inf.CreditCardTest" name="emptyCreditCardNumberCheck" time="0"/>
   <testcase classname="uk.ac.ed.inf.CreditCardTest" name="creditCardNumberLessThan16CheckIncorrect" time="0"/>
   <testcase classname="uk.ac.ed.inf.CreditCardTest" name="creditCardNumberCheckCorrect" time="0"/>
-  <testcase classname="uk.ac.ed.inf.CreditCardTest" name="creditCardExpiryCheckIncorrect" time="0"/>
-  <testcase classname="uk.ac.ed.inf.CreditCardTest" name="creditCardExpiryCheckCorrect" time="0"/>
   <testcase classname="uk.ac.ed.inf.CreditCardTest" name="creditCardCvvCheckCorrect" time="0"/>
 </testsuite>
