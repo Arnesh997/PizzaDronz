@@ -81,7 +81,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>uk.ac.ed.inf.Main</mainClass>
+              <mainClass>uk.ac.ed.inf.App</mainClass>
             </manifest>
           </archive>
         </configuration>
