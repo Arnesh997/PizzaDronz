@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: uk.ac.ed.inf.RestTest
+Test set: uk.ac.ed.inf.nextposTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.772 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec

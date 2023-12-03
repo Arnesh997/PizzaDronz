@@ -27,16 +27,16 @@ public class App {
 
             if (!isValidDate(date)) {
                 System.err.println("Invalid date");
-                System.exit(2);
+                System.exit(1);
             }
             if(url == null || !isValidURL(url)){
                 System.err.println("Invalid URL");
-                System.exit(2); // Exiting gracefully
+                System.exit(1); // Exiting gracefully
             }
             RestClient restClient = new RestClient(url);
             if(!restClient.isAlive()){
                 System.err.println("REST Server is not alive");
-                System.exit(2);
+                System.exit(1);
             }
 
             try {
@@ -45,7 +45,7 @@ public class App {
                 main.run();
             } catch (Exception e) { // Catching any unexpected exceptions
                 System.out.println("An error occurred: " + e.getMessage());
-                System.exit(3);
+                System.exit(1);
             }
         }
     }
@@ -77,7 +77,7 @@ public class App {
             return true;
         } catch (MalformedURLException | URISyntaxException e) {
             System.out.println("Invalid URL format: " + e.getMessage());
-            System.exit(2);
+            System.exit(1);
         }
         return false;
     }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="uk.ac.ed.inf.OrderValidationTest" time="0" errors="0" skipped="0">
+<testsuite tests="9" failures="0" name="uk.ac.ed.inf.OrderValidationTest" time="0.001" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2022.1.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -67,6 +67,6 @@
   <testcase classname="uk.ac.ed.inf.OrderValidationTest" name="pizzaDefinedNullPizzaTest" time="0"/>
   <testcase classname="uk.ac.ed.inf.OrderValidationTest" name="noPizzaFromMultipleRestaurantsTest" time="0"/>
   <testcase classname="uk.ac.ed.inf.OrderValidationTest" name="pizzaCountEqualMaxCheck" time="0"/>
-  <testcase classname="uk.ac.ed.inf.OrderValidationTest" name="pizzaDefinedTwoRightTwoWrongTest" time="0"/>
+  <testcase classname="uk.ac.ed.inf.OrderValidationTest" name="pizzaDefinedTwoRightTwoWrongTest" time="0.001"/>
   <testcase classname="uk.ac.ed.inf.OrderValidationTest" name="pizzaDefinedAllWrongTest" time="0"/>
 </testsuite>
