@@ -27,7 +27,7 @@ public class App {
 
             if (!isValidDate(date)) {
                 System.err.println("Invalid date");
-                System.exit(2); // Exiting gracefully
+                System.exit(2);
             }
             if(url == null || !isValidURL(url)){
                 System.err.println("Invalid URL");
@@ -36,7 +36,7 @@ public class App {
             RestClient restClient = new RestClient(url);
             if(!restClient.isAlive()){
                 System.err.println("REST Server is not alive");
-                System.exit(2); // Exiting gracefully
+                System.exit(2);
             }
 
             try {
@@ -45,7 +45,7 @@ public class App {
                 main.run();
             } catch (Exception e) { // Catching any unexpected exceptions
                 System.out.println("An error occurred: " + e.getMessage());
-                System.exit(3); // Exiting gracefully
+                System.exit(3);
             }
         }
     }
