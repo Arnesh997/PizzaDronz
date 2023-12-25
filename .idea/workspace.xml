@@ -7,26 +7,18 @@
     <list default="true" id="de08d4ae-9a0d-4e08-b5ee-2d62d637b3b1" name="Changes" comment="&quot;uh&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resultfiles/deliveries-2023-11-15.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultfiles/deliveries-2023-11-17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultfiles/deliveries-2023-12-06.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resultfiles/drone-2023-11-15.geojson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultfiles/drone-2023-11-17.geojson" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultfiles/drone-2023-12-06.geojson" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resultfiles/flightpath-2023-11-15.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultfiles/flightpath-2023-11-17.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resultfiles/flightpath-2023-12-06.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/uk/ac/ed/inf/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/RestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/RestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/nextposTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uk/ac/ed/inf/nextposTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/PizzaDronz-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/PizzaDronz-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/PizzaDronz-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-uk.ac.ed.inf.CreditCardTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-uk.ac.ed.inf.CreditCardTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-uk.ac.ed.inf.OrderValidationTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-uk.ac.ed.inf.OrderValidationTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-uk.ac.ed.inf.PizzaInfoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-uk.ac.ed.inf.PizzaInfoTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-uk.ac.ed.inf.RestTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-uk.ac.ed.inf.RestTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/uk.ac.ed.inf.CreditCardTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/uk.ac.ed.inf.CreditCardTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/uk.ac.ed.inf.OrderValidationTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/uk.ac.ed.inf.OrderValidationTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/uk.ac.ed.inf.PizzaInfoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/uk.ac.ed.inf.PizzaInfoTest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/uk.ac.ed.inf.RestTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/uk.ac.ed.inf.RestTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/RestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/RestTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/nextposTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/uk/ac/ed/inf/nextposTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,10 +164,10 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.RestTest" />
+      <item itemvalue="JUnit.RestTest.testTime" />
       <item itemvalue="JUnit.nextposTest" />
       <item itemvalue="JUnit.nextposTest.testIfNextMoveIsCorrect" />
       <item itemvalue="JUnit.uk.ac.ed.inf in PizzaDronz" />
-      <item itemvalue="JUnit.RestTest.testTime" />
     </list>
     <recent_temporary>
       <list>
